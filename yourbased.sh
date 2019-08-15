@@ -12,7 +12,7 @@ export RACK_ENV=test
 export MERB_ENV=test
 export JRUBY_OPTS="--server -Dcext.enabled=false -Xcompile.invokedynamic=false"
 
-apt-get update && apt-get install -y tzdata mysql-server-5.6 mysql-client-core-5.6 mysql-client-5.6
+apt-get update && apt-get install -y tzdata mysql-server-5.7 mysql-client-core-5.7 mysql-client-5.7
 gem install bundler -v 2.0.1
 # install
 bundle install --jobs=3 --retry=3
