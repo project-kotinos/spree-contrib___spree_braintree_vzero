@@ -1,36 +1,36 @@
 build_targets:
-- commands:
-  - chmod +x yourbased.sh
-  - sh ./yourbased.sh
-  container:
-    image: yourbase/yb_ubuntu:16.04
-  environment:
-  - BUNDLE_GEMFILE=gemfiles/spree_3_2.gemfile
-  name: 2.5.1_spree_3_2.gemfile
-- commands:
-  - chmod +x yourbased.sh
-  - sh ./yourbased.sh
-  container:
-    image: yourbase/yb_ubuntu:16.04
-  environment:
-  - BUNDLE_GEMFILE=gemfiles/spree_3_2_spree_auth_devise.gemfile
-  name: 2.5.1_spree_3_2_spree_auth_devise.gemfile
-- commands:
-  - chmod +x yourbased.sh
-  - sh ./yourbased.sh
-  container:
-    image: yourbase/yb_ubuntu:16.04
-  environment:
-  - BUNDLE_GEMFILE=gemfiles/spree_3_5.gemfile
-  name: 2.5.1_spree_3_5.gemfile
-- commands:
-  - chmod +x yourbased.sh
-  - sh ./yourbased.sh
-  container:
-    image: yourbase/yb_ubuntu:16.04
-  environment:
-  - BUNDLE_GEMFILE=gemfiles/spree_3_5_spree_auth_devise.gemfile
-  name: 2.5.1_spree_3_5_spree_auth_devise.gemfile
+# - commands:
+#   - chmod +x yourbased.sh
+#   - sh ./yourbased.sh
+#   container:
+#     image: yourbase/yb_ubuntu:16.04
+#   environment:
+#   - BUNDLE_GEMFILE=gemfiles/spree_3_2.gemfile
+#   name: 2.5.1_spree_3_2.gemfile
+# - commands:
+#   - chmod +x yourbased.sh
+#   - sh ./yourbased.sh
+#   container:
+#     image: yourbase/yb_ubuntu:16.04
+#   environment:
+#   - BUNDLE_GEMFILE=gemfiles/spree_3_2_spree_auth_devise.gemfile
+#   name: 2.5.1_spree_3_2_spree_auth_devise.gemfile
+# - commands:
+#   - chmod +x yourbased.sh
+#   - sh ./yourbased.sh
+#   container:
+#     image: yourbase/yb_ubuntu:16.04
+#   environment:
+#   - BUNDLE_GEMFILE=gemfiles/spree_3_5.gemfile
+#   name: 2.5.1_spree_3_5.gemfile
+# - commands:
+#   - chmod +x yourbased.sh
+#   - sh ./yourbased.sh
+#   container:
+#     image: yourbase/yb_ubuntu:16.04
+#   environment:
+#   - BUNDLE_GEMFILE=gemfiles/spree_3_5_spree_auth_devise.gemfile
+#   name: 2.5.1_spree_3_5_spree_auth_devise.gemfile
 - commands:
   - chmod +x yourbased.sh
   - sh ./yourbased.sh
@@ -39,48 +39,48 @@ build_targets:
   environment:
   - BUNDLE_GEMFILE=gemfiles/spree_3_7.gemfile
   name: 2.5.1_spree_3_7.gemfile
-- commands:
-  - chmod +x yourbased.sh
-  - sh ./yourbased.sh
-  container:
-    image: yourbase/yb_ubuntu:16.04
-  environment:
-  - BUNDLE_GEMFILE=gemfiles/spree_3_6_spree_auth_devise.gemfile
-  name: 2.5.1_spree_3_6_spree_auth_devise.gemfile
-- commands:
-  - chmod +x yourbased.sh
-  - sh ./yourbased.sh
-  container:
-    image: yourbase/yb_ubuntu:16.04
-  environment:
-  - BUNDLE_GEMFILE=gemfiles/spree_master.gemfile
-  name: 2.5.1_spree_master.gemfile
-- commands:
-  - chmod +x yourbased.sh
-  - sh ./yourbased.sh
-  container:
-    image: yourbase/yb_ubuntu:16.04
-  environment:
-  - BUNDLE_GEMFILE=gemfiles/spree_master_spree_auth_devise.gemfile
-  name: 2.5.1_spree_master_spree_auth_devise.gemfile
+# - commands:
+#   - chmod +x yourbased.sh
+#   - sh ./yourbased.sh
+#   container:
+#     image: yourbase/yb_ubuntu:16.04
+#   environment:
+#   - BUNDLE_GEMFILE=gemfiles/spree_3_6_spree_auth_devise.gemfile
+#   name: 2.5.1_spree_3_6_spree_auth_devise.gemfile
+# - commands:
+#   - chmod +x yourbased.sh
+#   - sh ./yourbased.sh
+#   container:
+#     image: yourbase/yb_ubuntu:16.04
+#   environment:
+#   - BUNDLE_GEMFILE=gemfiles/spree_master.gemfile
+#   name: 2.5.1_spree_master.gemfile
+# - commands:
+#   - chmod +x yourbased.sh
+#   - sh ./yourbased.sh
+#   container:
+#     image: yourbase/yb_ubuntu:16.04
+#   environment:
+#   - BUNDLE_GEMFILE=gemfiles/spree_master_spree_auth_devise.gemfile
+#   name: 2.5.1_spree_master_spree_auth_devise.gemfile
 ci:
   builds:
-  - build_target: 2.5.1_spree_3_2.gemfile
-    name: 2.5.1_spree_3_2.gemfile
-  - build_target: 2.5.1_spree_3_2_spree_auth_devise.gemfile
-    name: 2.5.1_spree_3_2_spree_auth_devise.gemfile
-  - build_target: 2.5.1_spree_3_5.gemfile
-    name: 2.5.1_spree_3_5.gemfile
-  - build_target: 2.5.1_spree_3_5_spree_auth_devise.gemfile
-    name: 2.5.1_spree_3_5_spree_auth_devise.gemfile
+#   - build_target: 2.5.1_spree_3_2.gemfile
+#     name: 2.5.1_spree_3_2.gemfile
+#   - build_target: 2.5.1_spree_3_2_spree_auth_devise.gemfile
+#     name: 2.5.1_spree_3_2_spree_auth_devise.gemfile
+#   - build_target: 2.5.1_spree_3_5.gemfile
+#     name: 2.5.1_spree_3_5.gemfile
+#   - build_target: 2.5.1_spree_3_5_spree_auth_devise.gemfile
+#     name: 2.5.1_spree_3_5_spree_auth_devise.gemfile
   - build_target: 2.5.1_spree_3_7.gemfile
     name: 2.5.1_spree_3_7.gemfile
-  - build_target: 2.5.1_spree_3_6_spree_auth_devise.gemfile
-    name: 2.5.1_spree_3_6_spree_auth_devise.gemfile
-  - build_target: 2.5.1_spree_master.gemfile
-    name: 2.5.1_spree_master.gemfile
-  - build_target: 2.5.1_spree_master_spree_auth_devise.gemfile
-    name: 2.5.1_spree_master_spree_auth_devise.gemfile
+#   - build_target: 2.5.1_spree_3_6_spree_auth_devise.gemfile
+#     name: 2.5.1_spree_3_6_spree_auth_devise.gemfile
+#   - build_target: 2.5.1_spree_master.gemfile
+#     name: 2.5.1_spree_master.gemfile
+#   - build_target: 2.5.1_spree_master_spree_auth_devise.gemfile
+#     name: 2.5.1_spree_master_spree_auth_devise.gemfile
 dependencies:
   build:
   - ruby:2.5.1
