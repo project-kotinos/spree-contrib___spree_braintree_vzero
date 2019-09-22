@@ -4,6 +4,7 @@ export DEBIAN_FRONTEND=noninteractive
 export CI=true
 export TRAVIS=true
 export CONTINUOUS_INTEGRATION=true
+export WITHOUT_SPREE_AUTH_DEVISE=true
 export USER=travis
 export LANG=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
