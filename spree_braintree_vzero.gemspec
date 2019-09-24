@@ -37,6 +37,8 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'database_cleaner'
   s.add_development_dependency 'factory_bot', '~> 4.7'
   s.add_development_dependency 'ffaker'
+  s.add_development_dependency 'yourbase-rspec-skipper'
+  s.add_development_dependency 'rspec'
   s.add_development_dependency 'rspec-rails', '~> 3.1'
   s.add_development_dependency 'sass-rails'
   s.add_development_dependency 'selenium-webdriver'

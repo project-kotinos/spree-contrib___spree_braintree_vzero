@@ -53,5 +53,5 @@ fi
 bundle install --jobs=3 --retry=3
 # script
 bundle exec rake test_app
-bundle exec rake spec
+bundle exec rake --trace spec
 bundle exec codeclimate-test-reporter
